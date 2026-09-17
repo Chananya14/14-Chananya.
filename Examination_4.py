@@ -7,4 +7,10 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-weight = float(input())
+weight = float(input("กรุณากรอกน้ำหนักสินค้า (kg.): "))
+if weight<=1:
+    print("จ่าย 30 บาท")
+elif weight<=5:
+    print("จ่าย 50 บาท")
+else:
+    print("จ่าย 100 บาท")
